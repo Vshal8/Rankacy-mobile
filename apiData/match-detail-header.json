@@ -1,0 +1,110 @@
+{
+  "match_": {
+    "demo_id": "aba48249-c61a-4dae-af16-42f2aad41e7e",
+    "map_name": "de_mirage",
+    "score": "13:7",
+    "created_at": "2024-11-24T18:17:26.597866",
+    "my_result": "VICTORY",
+    "mode": "PREMIER"
+  },
+  "user_rank": {
+    "total_rank_position_average": 3.7333333333333334,
+    "total_rank": 154.5622398102196,
+    "total_rank_average": 161.63567932746602,
+    "total_rank_history": [
+      170.58521747735603, 175.44891844085652, 163.22578508405343,
+      136.44112001335225, 158.28600512140946, 180.0547721998316,
+      181.63416200048897, 137.3449069275208, 196.61967332591462,
+      176.9754187494803, 139.3434819947263, 150.42304133489444,
+      197.55918192145302, 172.35965399452766, 127.17103325508565,
+      119.78549739302971, 154.0644433347586, 103.0089069405655,
+      186.39259896528642, 134.17316179555993, 174.31658342268432,
+      138.9001816428334, 195.2198395163849, 156.27755898552573,
+      203.1215483244662, 183.13108923759592, 162.47379339786886,
+      188.91500958446653, 138.7448309255172, 154.5622398102196
+    ],
+    "players_positions": [
+      {
+        "player_name": "SZCZUR3K",
+        "total_rank": 159.79241573682629,
+        "total_rank_position": 3,
+        "average_damage": 102.5,
+        "average_damage_position": 1,
+        "is_my_team": false
+      },
+      {
+        "player_name": "FatBaker",
+        "total_rank": 188.92583968200356,
+        "total_rank_position": 1,
+        "average_damage": 96.8,
+        "average_damage_position": 2,
+        "is_my_team": true
+      },
+      {
+        "player_name": "TiMi",
+        "total_rank": 118.54668438056106,
+        "total_rank_position": 9,
+        "average_damage": 87.05,
+        "average_damage_position": 3,
+        "is_my_team": true
+      },
+      {
+        "player_name": "Rockz",
+        "total_rank": 181.0135396077943,
+        "total_rank_position": 2,
+        "average_damage": 81.8,
+        "average_damage_position": 4,
+        "is_my_team": true
+      },
+      {
+        "player_name": "Simon Riley",
+        "total_rank": 139.14124656805353,
+        "total_rank_position": 8,
+        "average_damage": 73.7,
+        "average_damage_position": 5,
+        "is_my_team": false
+      },
+      {
+        "player_name": "wezy",
+        "total_rank": 141.21099888335624,
+        "total_rank_position": 7,
+        "average_damage": 73.55,
+        "average_damage_position": 6,
+        "is_my_team": false
+      },
+      {
+        "player_name": "sedl1k",
+        "total_rank": 154.5622398102196,
+        "total_rank_position": 5,
+        "average_damage": 72.55,
+        "average_damage_position": 7,
+        "is_my_team": true
+      },
+      {
+        "player_name": "SwZ",
+        "total_rank": 149.46886175311155,
+        "total_rank_position": 6,
+        "average_damage": 68.5,
+        "average_damage_position": 8,
+        "is_my_team": true
+      },
+      {
+        "player_name": "TzK",
+        "total_rank": 158.19912529541276,
+        "total_rank_position": 4,
+        "average_damage": 65.4,
+        "average_damage_position": 9,
+        "is_my_team": false
+      },
+      {
+        "player_name": "EcoFrag Emil",
+        "total_rank": 98.76143363330569,
+        "total_rank_position": 10,
+        "average_damage": 54.6,
+        "average_damage_position": 10,
+        "is_my_team": false
+      }
+    ]
+  },
+  "last_highlight": null
+}

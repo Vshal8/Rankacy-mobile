@@ -1,0 +1,114 @@
+{
+  "aim_stat": {
+    "average_damage_per_round": 72.55,
+    "headshot_rate": 0.22448979591836735,
+    "aim_current_average_stat": {
+      "average_damage_per_round": 87.81219118461523,
+      "headshot_rate": 0.16843527517273796
+    }
+  },
+  "player_kill_death_stat": {
+    "kill_death_ratio": 0.8571428571428571,
+    "player_kill_death_current_average_stat": { "kill_death_ratio": 1.2045487677956719 }
+  },
+  "ranking": {
+    "aim_rank": 38,
+    "utility_rank": 60,
+    "movement_rank": 67,
+    "dick_factor_rank": 12,
+    "sixth_sense_rank": 61,
+    "ranking_current_average": {
+      "aim_rank": 48,
+      "utility_rank": 64,
+      "movement_rank": 67,
+      "dick_factor_rank": 18,
+      "sixth_sense_rank": 115
+    }
+  },
+  "strengths": [
+    {
+      "name": "one_key_movements",
+      "description": "one_key_movements_description",
+      "unit": "percentage",
+      "average": 0.7737391997653537,
+      "current": 78.63019701468666
+    },
+    {
+      "name": "counter_strafe_ratio",
+      "description": "counter_strafe_ratio_description",
+      "unit": "percentage",
+      "average": 0.7304879472046771,
+      "current": 71.42857142857143
+    },
+    {
+      "name": "spray_accuracy",
+      "description": "spray_accuracy_description",
+      "unit": "percentage",
+      "average": 0.17952151171300654,
+      "current": 36.97222222222222
+    }
+  ],
+  "weaknesses": [
+    {
+      "name": "fire_buys",
+      "description": "fire_buys_description",
+      "unit": "",
+      "average": 11.8,
+      "current": 9.0
+    },
+    {
+      "name": "kills",
+      "description": "kills_description",
+      "unit": "",
+      "average": 16.633333333333333,
+      "current": 12.0
+    },
+    {
+      "name": "average_damage_per_round",
+      "description": "average_damage_per_round_description",
+      "unit": "dmg",
+      "average": 87.81219118461523,
+      "current": 72.55
+    }
+  ],
+  "avg_dmg_history": [
+    98.33333333333333, 92.42857142857143, 85.28571428571429, 70.72413793103448, 89.34782608695652,
+    93.83333333333333, 96.3, 66.04761904761905, 106.0, 82.80952380952381, 75.45833333333333,
+    93.26666666666667, 97.05555555555556, 77.2, 74.08695652173913, 62.857142857142854,
+    104.38888888888889, 54.04545454545455, 116.8125, 65.05, 95.45, 71.4090909090909, 111.6,
+    83.85714285714286, 125.58823529411765, 100.33333333333333, 96.26666666666667,
+    109.72222222222223, 70.3529411764706, 72.55
+  ],
+  "skill_rating_map_history": [
+    { "result": "VICTORY", "total_rank": 214.3616032333563 },
+    { "result": "VICTORY", "total_rank": 201.84782265803344 },
+    { "result": "LOSS", "total_rank": 147.785514448799 },
+    { "result": "VICTORY", "total_rank": 203.08842586141404 },
+    { "result": "VICTORY", "total_rank": 191.85276308973425 },
+    { "result": "VICTORY", "total_rank": 183.3799746432286 },
+    { "result": "LOSS", "total_rank": 166.3802036848551 },
+    { "result": "VICTORY", "total_rank": 196.98695538534778 },
+    { "result": "DRAW", "total_rank": 192.91572512826667 },
+    { "result": "VICTORY", "total_rank": 201.5883809481957 },
+    { "result": "DRAW", "total_rank": 138.5991810906342 },
+    { "result": "LOSS", "total_rank": 124.94608188621002 },
+    { "result": "LOSS", "total_rank": 184.53613292870907 },
+    { "result": "LOSS", "total_rank": 168.23576847582757 },
+    { "result": "LOSS", "total_rank": 134.63854097309522 },
+    { "result": "VICTORY", "total_rank": 220.94997815178235 },
+    { "result": "VICTORY", "total_rank": 203.2106512366784 },
+    { "result": "LOSS", "total_rank": 213.252536613038 },
+    { "result": "LOSS", "total_rank": 146.0670457545499 },
+    { "result": "LOSS", "total_rank": 199.87479005119397 },
+    { "result": "VICTORY", "total_rank": 213.53765709100173 },
+    { "result": "VICTORY", "total_rank": 175.44891844085652 },
+    { "result": "LOSS", "total_rank": 163.22578508405343 },
+    { "result": "VICTORY", "total_rank": 176.9754187494803 },
+    { "result": "DRAW", "total_rank": 150.42304133489444 },
+    { "result": "LOSS", "total_rank": 197.55918192145302 },
+    { "result": "DRAW", "total_rank": 172.35965399452766 },
+    { "result": "VICTORY", "total_rank": 174.31658342268432 },
+    { "result": "VICTORY", "total_rank": 203.1215483244662 },
+    { "result": "VICTORY", "total_rank": 154.5622398102196 }
+  ]
+}
