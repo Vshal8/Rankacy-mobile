@@ -1,13 +1,18 @@
 import BottomText from "@/components/atoms/BottomText";
 import CountWithStatus from "@/components/atoms/CountWithStatus";
 import { fonts } from "@/constants/fonts";
-import { getScaledFontSize } from "@/constants/globalConstants";
+import { getScaledFontSize, SingleListItemType } from "@/constants/globalConstants";
 import { globalStyleDefinitions } from "@/constants/globalStyleDefinitions";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
 import { Text, useTheme } from "react-native-paper";
 
-const ListCard = ({ item, status }: { item?: any; status: number }) => {
+type ListCardProps = {
+  item: SingleListItemType;
+  status: 'strength' | 'weakness'
+}
+
+const ListCard = ({ item, status }: ListCardProps) => {
   const theme = useTheme();
   return (
     <View
@@ -19,11 +24,11 @@ const ListCard = ({ item, status }: { item?: any; status: number }) => {
             styles.title,
             {
               color:
-                status == 1 ? theme.colors.primary : theme.colors.secondary,
+                status == 'strength' ? theme.colors.primary : theme.colors.secondary,
             },
           ]}
         >
-          {item?.name}
+          {item?.title}
         </Text>
         <BottomText
           text={item?.description}
@@ -31,8 +36,8 @@ const ListCard = ({ item, status }: { item?: any; status: number }) => {
         />
       </View>
       <CountWithStatus
-        title={`${parseInt(item?.current).toString()}${item?.unit == "percentage" ? "%" : ""}`}
-        status={status}
+        title={item?.value}
+        status={status == 'strength' ? 1 : 0}
       />
     </View>
   );

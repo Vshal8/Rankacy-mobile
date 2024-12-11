@@ -10,21 +10,20 @@ import { ImageSourcePropType, StyleSheet, View, ViewStyle } from "react-native";
 const StatCard = ({
   imagePath,
   title,
-  count,
   val,
   avg,
-  status,customStyle
+  status,
+  customStyle
 }: {
   imagePath: ImageSourcePropType;
   title: string;
-  count: string;
   status: number;
   val: number;
   avg: number;
-  customStyle?:ViewStyle
+  customStyle?: ViewStyle
 }) => {
   return (
-    <View style={[styles.container,customStyle]}>
+    <View style={[styles.container, customStyle]}>
       <HeaderIconWithText
         imagePath={imagePath}
         title={title}
@@ -32,7 +31,7 @@ const StatCard = ({
         textStyle={styles.headerText}
       />
       <CountWithStatus
-        title={count}
+        title={`${val}`}
         status={status}
         customStyle={{ marginTop: 5 }}
       />
@@ -47,7 +46,7 @@ const styles = StyleSheet.create({
     height: 18,
     width: 18,
   },
-  container: { width: windowWidth * 0.4, marginBottom: 20,marginTop:globalStyleDefinitions.mt_4.marginTop },
+  container: { width: windowWidth * 0.4, marginBottom: 20, marginTop: globalStyleDefinitions.mt_4.marginTop },
   subText: { textAlign: "center", marginTop: 10 },
   headerText: { fontSize: getScaledFontSize(14), marginLeft: 5 },
 });

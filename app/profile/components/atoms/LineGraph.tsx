@@ -3,19 +3,21 @@ import React, { memo } from "react";
 import { View, ViewStyle } from "react-native";
 import { Area, CartesianChart, Line } from "victory-native";
 
+type LineGraphProps = {
+  data: Array<any>;
+  xKey: string;
+  yKeys: Array<string>;
+  customStyle?: ViewStyle;
+  linearColor: Array<any>;
+}
+
 const LineGraph = ({
   data,
   xKey,
   yKeys,
   customStyle,
   linearColor,
-}: {
-  data: any[];
-  xKey: string;
-  yKeys: string[];
-  customStyle?: ViewStyle;
-  linearColor: any[];
-}) => {
+}: LineGraphProps) => {
   return (
     <View style={[customStyle, { height: "100%", flex: 1 }]}>
       <CartesianChart
