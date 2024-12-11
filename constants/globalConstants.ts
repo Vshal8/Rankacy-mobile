@@ -7,6 +7,12 @@ export function getScaledFontSize(size: any) {
   return size / PixelRatio.getFontScale();
 }
 
-export const getRoundedValue=(val:number)=>{
+export const getRoundedValue = (val: number) => {
   return Math.round(val)
+}
+
+export type SingleListItemType = {
+  title: string;
+  description: string;
+  value: string;
 }

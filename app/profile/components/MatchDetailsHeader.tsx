@@ -11,8 +11,8 @@ import React, { memo, useEffect, useState } from "react";
 import { Image, ImageBackground, StyleSheet, View } from "react-native";
 import { ActivityIndicator, Text, useTheme } from "react-native-paper";
 import { Bar, CartesianChart } from "victory-native";
-import DetailsCard from "./DetailsCard";
-import LineGraph from "./LineGraph";
+import DetailsCard from "./molecules/DetailsCard";
+import LineGraph from "./atoms/LineGraph";
 const ApiHeaderData = require("../../../apiData/match-detail-header.json");
 
 type HeaderData = {
@@ -29,7 +29,7 @@ type HeaderData = {
   placementGraph: Array<any>;
 };
 
-const Header = ({}) => {
+const MatchDetailsHeader = ({ }) => {
   const theme = useTheme();
 
   const [isLoading, setIsLoading] = useState(true);
@@ -195,7 +195,7 @@ const Header = ({}) => {
   );
 };
 
-export default memo(Header);
+export default memo(MatchDetailsHeader);
 
 const styles = StyleSheet.create({
   imageContainer: {
